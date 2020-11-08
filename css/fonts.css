@@ -1,0 +1,75 @@
+
+
+@font-face
+{
+	font-family: 'FontAwesome';
+	src: url('/fonts/fontawesome-webfont.eot?v=3.0.1');
+	src: url('/fonts/fontawesome-webfont.eot?#iefix&v=3.0.1') format('embedded-opentype'),
+	     url('/fonts/fontawesome-webfont.woff?v=3.0.1') format('woff'),
+	     url('/fonts/fontawesome-webfont.ttf?v=3.0.1') format('truetype'),
+	     url('/fonts/fontawesome-webfont.svg#FontAwesome') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face
+{
+	font-family: 'Font-Awesome-Social';
+	src: url('/fonts/fontawesome-social-webfont.eot');
+	src: url('/fonts/fontawesome-social-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('/fonts/fontawesome-social-webfont.woff') format('woff'),
+		 url('/fonts/fontawesome-social-webfont.ttf') format('truetype'),
+		 url('/fonts/fontawesome-social-webfont.svg#Font-Awesome-More') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/* Icons                                                                         */
+
+
+
+	.icon
+	{
+		text-decoration: none;
+	}
+
+		.icon:before
+		{
+			font-size: 1.25em;
+			text-decoration: none;
+			font-family: FontAwesome;
+			font-weight: normal;
+			font-style: normal;
+			-webkit-text-rendering: optimizeLegibility;
+			-moz-text-rendering: optimizeLegibility;
+			-ms-text-rendering: optimizeLegibility;
+			-o-text-rendering: optimizeLegibility;
+			text-rendering: optimizeLegibility;
+			-webkit-font-smoothing: antialiased;
+			-moz-font-smoothing: antialiased;
+			-ms-font-smoothing: antialiased;
+			-o-font-smoothing: antialiased;
+			font-smoothing: antialiased;
+			-webkit-font-feature-settings: "liga" 1, "dlig" 1;
+			-moz-font-feature-settings: "liga=1, dlig=1";
+			-ms-font-feature-settings: "liga" 1, "dlig" 1;
+			-o-font-feature-settings: "liga" 1, "dlig" 1;
+			font-feature-settings: "liga" 1, "dlig" 1;
+		}
+
+		
+		.icon-envelope:before             { content: "\f003"; }
+		.icon-cog:before                  { content: "\f013"; }
+		.icon-map-marker:before           { content: "\f041"; }
+		.icon-phone:before                { content: "\f095"; }
+		.icon-twitter-sign:before         { content: "\f081"; }
+		.icon-twitter:before              { content: "\f099"; }
+		.icon-dribbble-sign:before        { content: "\f312"; }
+		.icon-dribbble:before             { content: "\f313"; }
+		.icon-tumblr-sign:before          { content: "\f321"; }
+		.icon-tumblr:before               { content: "\f322"; }
+		.icon-rss:before                  { content: "\f09e"; }
+		.icon-facebook-sign:before        { content: "\f082"; }
+		.icon-facebook:before             { content: "\f09a"; }
+		.icon-blogger-sign:before,.icon-blogger:before,.icon-delicious:before,.icon-dribbble-sign:before,.icon-dribbble:before,.icon-dropbox:before,.icon-drupal:before,.icon-evernote-sign:before,.icon-evernote:before,.icon-flickr-sign:before,.icon-flickr:before,.icon-forrst-sign:before,.icon-forrst:before,.icon-foursquare-sign:before,.icon-foursquare:before,.icon-git-fork:before,.icon-hacker-news:before,.icon-instagram:before,.icon-lastfm-sign:before,.icon-lastfm:before,.icon-paypal:before,.icon-picasa-sign:before,.icon-picasa:before,.icon-reddit:before,.icon-share-this-sign:before,.icon-share-this:before,.icon-skype:before,.icon-soundcloud:before,.icon-spotify:before,.icon-stack-overflow:before,.icon-tumblr-sign:before,.icon-tumblr:before,.icon-vimeo-sign:before,.icon-vimeo:before,.icon-wordpress-sign:before,.icon-wordpress:before,.icon-yelp-sign:before,.icon-yelp:before,.icon-youtube-sign:before,.icon-youtube:before              {font-family:'Font-Awesome-Social'; }
