@@ -54,7 +54,7 @@
 	.container
 	{
 		margin: 0px auto;
-		width: 1200px;
+		width: auto; max-width: 1200px;
 	}
 	
 
