@@ -330,6 +330,7 @@
 		padding: 3em 0em;
 		background: #ffe9d6 ;
 		text-align: center;
+		width:auto; max-width:600px;
 	}
 
 
@@ -339,7 +340,7 @@
 	#footer .fbox3
 	{
 		float: left;
-		width: 320px;
+		width: auto; max-width:600px;
 		padding: 0px 40px 0px 40px;
 	}
 	
